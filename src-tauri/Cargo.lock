@@ -971,7 +971,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "gptchat-menubar"
+name = "chatgpt-systemtray"
 version = "0.0.0"
 dependencies = [
  "serde",

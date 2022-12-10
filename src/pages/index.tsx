@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Welcome to ChatGPT Menubar</h1>
+      <h1>Welcome to ChatGPT systemtray</h1>
 
       <div className="row">
         <span className="logos">
