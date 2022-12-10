@@ -3,11 +3,11 @@
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
 
-> Simple Native application system tray.
+> Simple Native application system tray for Chat GPT.
 
 [![IT Man - Tech #22 - Tauri App - Build smaller, faster, and more secure desktop [Vietnamese]](https://i.ytimg.com/vi/SdLGyC8BtOE/hqdefault.jpg)](https://www.youtube.com/watch?v=SdLGyC8BtOE)
 
-### 🏠 [Homepage](https://tauri.app)
+### 🏠 [Homepage](https://productsway.com)
 
 ## Prerequisites
 
@@ -38,6 +38,8 @@ pnpm install
 pnpm tauri dev
 ```
 
+![https://gyazo.com/9d9649977e05444394eee4c405301b23.gif](https://gyazo.com/9d9649977e05444394eee4c405301b23.gif)
+
 ## Build
 
 ```sh
@@ -52,7 +54,7 @@ pnpm tauri build
 
 ## TODO
 
-- [x] Ad show/hide app on system tray
+- [x] Show/hide app on system tray
 - [ ] Integrate [ChatGPT](https://chat.openai.com/chat)
 
 ## Author
