@@ -4,6 +4,7 @@ import Image from "next/image";
 import reactLogo from "../assets/react.svg";
 import tauriLogo from "../assets/tauri.svg";
 import nextLogo from "../assets/next.svg";
+import openAILogo from "../assets/openai.jpg";
 
 function App() {
   const [greetMsg, setGreetMsg] = useState("");
@@ -16,8 +17,20 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Welcome to Tauri!</h1>
+      <h1>Welcome to ChatGPT Menubar</h1>
 
+      <div className="row">
+        <span className="logos">
+          <a href="https://chat.openai.com/chat" target="_blank">
+            <Image
+              sizes="fill"
+              src={openAILogo}
+              className="logo next"
+              alt="Next logo"
+            />
+          </a>
+        </span>
+      </div>
       <div className="row">
         <span className="logos">
           <a href="https://nextjs.org" target="_blank">
@@ -54,7 +67,7 @@ function App() {
         </span>
       </div>
 
-      <p>Click on the Tauri, Next, and React logos to learn more.</p>
+      <p>Click on the OpenAI, Tauri, Next, and React logos to learn more.</p>
 
       <div className="row">
         <div>
