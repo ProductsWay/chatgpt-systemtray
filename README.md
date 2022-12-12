@@ -22,6 +22,7 @@
 - [Tauri: Build an optimized, secure, and frontend-independent application for multi-platform deployment.](https://tauri.app/)
 - [Next.js by Vercel - The React Framework](https://nextjs.org/)
 - [transitive-bullshit/chatgpt-api: Node.js client for the unofficial ChatGPT API. 🔥](https://github.com/transitive-bullshit/chatgpt-api#session-tokens)
+- [timolins/react-hot-toast: Smoking Hot React Notifications 🔥](https://github.com/timolins/react-hot-toast)
 
 ## Recommended IDE Setup
 

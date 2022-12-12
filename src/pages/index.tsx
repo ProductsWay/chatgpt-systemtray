@@ -41,12 +41,12 @@ function App() {
       </div>
 
       <p>
-        Click on the OpenAI then get enter the tokens on{" "}
+        Click on the OpenAI then get enter the tokens from{" "}
         <a
           href="https://github.com/transitive-bullshit/chatgpt-api#session-tokens"
           target="_blank"
         >
-          from cookie on Application tab.
+          Application tab.
         </a>
       </p>
 
