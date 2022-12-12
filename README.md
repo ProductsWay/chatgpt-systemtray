@@ -21,6 +21,7 @@
 
 - [Tauri: Build an optimized, secure, and frontend-independent application for multi-platform deployment.](https://tauri.app/)
 - [Next.js by Vercel - The React Framework](https://nextjs.org/)
+- [transitive-bullshit/chatgpt-api: Node.js client for the unofficial ChatGPT API. 🔥](https://github.com/transitive-bullshit/chatgpt-api#session-tokens)
 
 ## Recommended IDE Setup
 
@@ -38,7 +39,7 @@ pnpm install
 pnpm tauri dev
 ```
 
-![https://gyazo.com/9d9649977e05444394eee4c405301b23.gif](https://gyazo.com/9d9649977e05444394eee4c405301b23.gif)
+![https://gyazo.com/d0760bd1f71912fd044767da395676a8.gif](https://gyazo.com/d0760bd1f71912fd044767da395676a8.gif)
 
 ## Build
 
