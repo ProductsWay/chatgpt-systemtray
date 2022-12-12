@@ -1,18 +1,26 @@
 import { useState } from "react";
-import { invoke } from "@tauri-apps/api/tauri";
 import Image from "next/image";
-import reactLogo from "../assets/react.svg";
-import tauriLogo from "../assets/tauri.svg";
-import nextLogo from "../assets/next.svg";
+
 import openAILogo from "../assets/openai.jpg";
+import { askQuestion } from "../ai";
+import toast from "react-hot-toast";
 
 function App() {
-  const [greetMsg, setGreetMsg] = useState("");
-  const [name, setName] = useState("");
+  const [msg, setMsg] = useState("");
+  const [question, setQuestion] = useState("");
+  const [keys, setKeys] = useState<{ token: string; clearance: string }>({
+    token: process.env.NEXT_TOKEN,
+    clearance: "",
+  });
 
-  async function greet() {
-    // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
-    setGreetMsg(await invoke("greet", { name }));
+  async function chat() {
+    try {
+      toast.loading("Processing...");
+      setMsg(await askQuestion(question, keys));
+      toast.success("Done!");
+    } catch (error) {
+      toast.error(error.message);
+    }
   }
 
   return (
@@ -31,58 +39,45 @@ function App() {
           </a>
         </span>
       </div>
+
+      <p>
+        Click on the OpenAI then get enter the tokens on{" "}
+        <a
+          href="https://github.com/transitive-bullshit/chatgpt-api#session-tokens"
+          target="_blank"
+        >
+          from cookie on Application tab.
+        </a>
+      </p>
+
       <div className="row">
-        <span className="logos">
-          <a href="https://nextjs.org" target="_blank">
-            <Image
-              width={144}
-              height={144}
-              src={nextLogo}
-              className="logo next"
-              alt="Next logo"
-            />
-          </a>
-        </span>
-        <span className="logos">
-          <a href="https://tauri.app" target="_blank">
-            <Image
-              width={144}
-              height={144}
-              src={tauriLogo}
-              className="logo tauri"
-              alt="Tauri logo"
-            />
-          </a>
-        </span>
-        <span className="logos">
-          <a href="https://reactjs.org" target="_blank">
-            <Image
-              width={144}
-              height={144}
-              src={reactLogo}
-              className="logo react"
-              alt="React logo"
-            />
-          </a>
-        </span>
+        <input
+          id="token-input"
+          onChange={(e) => setKeys({ ...keys, token: e.currentTarget.value })}
+          placeholder="Enter token"
+        />
+        <input
+          id="clearance-input"
+          onChange={(e) =>
+            setKeys({ ...keys, clearance: e.currentTarget.value })
+          }
+          placeholder="Enter clearance token"
+        />
       </div>
-
-      <p>Click on the OpenAI, Tauri, Next, and React logos to learn more.</p>
-
       <div className="row">
         <div>
           <input
             id="greet-input"
-            onChange={(e) => setName(e.currentTarget.value)}
-            placeholder="Enter a name..."
+            onChange={(e) => setQuestion(e.currentTarget.value)}
+            placeholder="Enter your question"
           />
-          <button type="button" onClick={() => greet()}>
-            Greet
+          <button type="button" onClick={() => chat()}>
+            Ask AI
           </button>
         </div>
       </div>
 
-      <p>{greetMsg}</p>
+      <p>{msg}</p>
     </div>
   );
 }
