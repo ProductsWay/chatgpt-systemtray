@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ofetch } from "ofetch";
-import toast from "react-hot-toast";
+import { toast } from "react-hot-toast";
+
 import logger from "../logger";
 
 function Chat() {
@@ -14,15 +15,17 @@ function Chat() {
   async function chat() {
     try {
       logger.info(`Call GPT: ${JSON.stringify({ question, keys })}`);
-      toast.loading("Processing...");
+      toast("Processing...");
       const { msg } = await ofetch("/api/gpt", {
         method: "POST",
         body: { question, keys },
       });
       toast.success("Done!");
       setMsg(msg);
+      return msg;
     } catch (error) {
       toast.error(error.message);
+      return "";
     }
   }
 
@@ -38,32 +41,41 @@ function Chat() {
         </a>
       </p>
 
-      <div className="row">
-        <input
-          id="token-input"
-          onChange={(e) => setKeys({ ...keys, token: e.currentTarget.value })}
-          placeholder="Enter token"
-        />
-        <input
-          id="clearance-input"
-          onChange={(e) =>
-            setKeys({ ...keys, clearance: e.currentTarget.value })
-          }
-          placeholder="Enter clearance token"
-        />
-      </div>
-      <div className="row">
-        <div>
+      <form
+        onSubmit={(evt) => {
+          evt.preventDefault();
+          chat().then((msg) => {
+            if (msg.length > 0) setQuestion("");
+          });
+        }}
+      >
+        <div className="row">
           <input
-            id="greet-input"
-            onChange={(e) => setQuestion(e.currentTarget.value)}
-            placeholder="Enter your question"
+            id="token-input"
+            onChange={(e) => setKeys({ ...keys, token: e.currentTarget.value })}
+            placeholder="Enter token"
+            required
           />
-          <button type="button" onClick={() => chat()}>
-            Ask AI
-          </button>
+          <input
+            id="clearance-input"
+            onChange={(e) =>
+              setKeys({ ...keys, clearance: e.currentTarget.value })
+            }
+            placeholder="Enter clearance token"
+          />
         </div>
-      </div>
+        <div className="row">
+          <div>
+            <input
+              id="greet-input"
+              onChange={(e) => setQuestion(e.currentTarget.value)}
+              placeholder="Enter your question"
+              required
+            />
+            <button type="submit">Ask AI</button>
+          </div>
+        </div>
+      </form>
 
       <p>{JSON.stringify(msg, null, 2)}</p>
     </>
