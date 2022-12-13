@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ofetch } from "ofetch";
 import toast from "react-hot-toast";
+import logger from "../logger";
 
 function Chat() {
   const [msg, setMsg] = useState("");
@@ -12,6 +13,7 @@ function Chat() {
 
   async function chat() {
     try {
+      logger.info(`Call GPT: ${JSON.stringify({ question, keys })}`);
       toast.loading("Processing...");
       const { msg } = await ofetch("/api/gpt", {
         method: "POST",
