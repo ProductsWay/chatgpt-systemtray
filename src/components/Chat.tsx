@@ -13,12 +13,12 @@ function Chat() {
   async function chat() {
     try {
       toast.loading("Processing...");
-      const msg = await ofetch("/api/gpt", {
+      const { msg } = await ofetch("/api/gpt", {
         method: "POST",
         body: { question, keys },
       });
-      setMsg(msg);
       toast.success("Done!");
+      setMsg(msg);
     } catch (error) {
       toast.error(error.message);
     }
