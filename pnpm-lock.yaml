@@ -3,10 +3,10 @@ lockfileVersion: 5.4
 specifiers:
   '@tauri-apps/api': 2.0.0-alpha.0
   '@tauri-apps/cli': 2.0.0-alpha.0
-  '@types/node': 18.11.14
+  '@types/node': 18.11.15
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
-  chatgpt: 2.3.0
+  chatgpt: 2.3.1
   consola: 2.15.3
   internal-ip: 7.0.0
   next: 13.0.6
@@ -23,7 +23,7 @@ specifiers:
 
 dependencies:
   '@tauri-apps/api': 2.0.0-alpha.0
-  chatgpt: 2.3.0_puppeteer@19.4.0
+  chatgpt: 2.3.1_puppeteer@19.4.0
   consola: 2.15.3
   next: 13.0.6_biqbaboplfbrettd7655fr4n2y
   next-swagger-doc: 0.3.6_next@13.0.6
@@ -38,7 +38,7 @@ dependencies:
 
 devDependencies:
   '@tauri-apps/cli': 2.0.0-alpha.0
-  '@types/node': 18.11.14
+  '@types/node': 18.11.15
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
   internal-ip: 7.0.0
@@ -383,8 +383,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node/18.11.14:
-    resolution: {integrity: sha512-0KXV57tENYmmJMl+FekeW9V3O/rlcqGQQJ/hNh9r8pKIj304pskWuEd8fCyNT86g/TpO0gcOTiLzsHLEURFMIQ==}
+  /@types/node/18.11.15:
+    resolution: {integrity: sha512-VkhBbVo2+2oozlkdHXLrb3zjsRkpdnaU2bXmX8Wgle3PUi569eLRaHGlgETQHR7lLL1w7GiG3h9SnePhxNDecw==}
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
@@ -422,7 +422,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 18.11.14
+      '@types/node': 18.11.15
     dev: false
     optional: true
 
@@ -572,8 +572,8 @@ packages:
     resolution: {integrity: sha512-mKKUkUbhPpQlCOfIuZkvSEgktjPFIsZKRRbC6KWVEMvlzblj3i3asQv5ODsrwt0N3pHAEvjP8KTQPHkp0+6jOg==}
     dev: false
 
-  /chatgpt/2.3.0_puppeteer@19.4.0:
-    resolution: {integrity: sha512-CE+BQFcjHlU2rcI06i+2vzI4yH1pX+vUnsxckAYTgbHDTEeVPYwOZL0mqTfqPpmDBeF96XAwueluJzzzqYqHEQ==}
+  /chatgpt/2.3.1_puppeteer@19.4.0:
+    resolution: {integrity: sha512-jzI1c3s3S5T9tUnebx5NvgwKMsc5gj9oQEnS+Exdtd/4V9o8Bycuqz50g9CpAaJPnBDbJxq6GTge2I+m4oSWPw==}
     engines: {node: '>=18'}
     peerDependencies:
       puppeteer: '*'
