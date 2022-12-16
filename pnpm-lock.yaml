@@ -13,7 +13,7 @@ specifiers:
   next-swagger-doc: 0.3.6
   next-validations: 0.3.1
   ofetch: 1.0.0
-  puppeteer: 19.4.0
+  puppeteer: 19.4.1
   react: 18.2.0
   react-dom: 18.2.0
   react-hot-toast: 2.4.0
@@ -23,13 +23,13 @@ specifiers:
 
 dependencies:
   '@tauri-apps/api': 2.0.0-alpha.0
-  chatgpt: 2.5.0_puppeteer@19.4.0
+  chatgpt: 2.5.0_puppeteer@19.4.1
   consola: 2.15.3
   next: 13.0.7_biqbaboplfbrettd7655fr4n2y
   next-swagger-doc: 0.3.6_next@13.0.7
   next-validations: 0.3.1_next@13.0.7
   ofetch: 1.0.0
-  puppeteer: 19.4.0
+  puppeteer: 19.4.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hot-toast: 2.4.0_biqbaboplfbrettd7655fr4n2y
@@ -572,7 +572,7 @@ packages:
     resolution: {integrity: sha512-mKKUkUbhPpQlCOfIuZkvSEgktjPFIsZKRRbC6KWVEMvlzblj3i3asQv5ODsrwt0N3pHAEvjP8KTQPHkp0+6jOg==}
     dev: false
 
-  /chatgpt/2.5.0_puppeteer@19.4.0:
+  /chatgpt/2.5.0_puppeteer@19.4.1:
     resolution: {integrity: sha512-PHQPE0IO0s8Q94+rSP5K2OjrSLxHkwunGDEMXLxAa0F+e6fhleDWR9msQnC9hZmSqM5yhwzqXQye2UBlUBITrQ==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -583,8 +583,8 @@ packages:
       expiry-map: 2.0.0
       html-to-md: 0.8.3
       p-timeout: 6.0.0
-      puppeteer: 19.4.0
-      puppeteer-extra: 3.3.4_puppeteer@19.4.0
+      puppeteer: 19.4.1
+      puppeteer-extra: 3.3.4_puppeteer@19.4.1
       puppeteer-extra-plugin-recaptcha: 3.6.6_puppeteer-extra@3.3.4
       puppeteer-extra-plugin-stealth: 2.11.1_puppeteer-extra@3.3.4
       remark: 14.0.2
@@ -1943,8 +1943,8 @@ packages:
     resolution: {integrity: sha512-RofWgt/7fL5wP1Y7fxE7/EmTLzQVnB0ycyibJ0OOHIlJqTNzglYFxVwETOcIoJqJmpDXJ9xImDv+Fq34F/d4Dw==}
     dev: false
 
-  /puppeteer-core/19.4.0:
-    resolution: {integrity: sha512-gG/jxseleZStinBn86x8r7trjcE4jcjx1hIQWOpACQhquHYMuKnrWxkzg+EDn8sN3wUtF/Ry9mtJgjM49oUOFQ==}
+  /puppeteer-core/19.4.1:
+    resolution: {integrity: sha512-JHIuqtqrUAx4jGOTxXu4ilapV2jabxtVMA/e4wwFUMvtSsqK4nVBSI+Z1SKDoz7gRy/JUIc8WzmfocCa6SIZ1w==}
     engines: {node: '>=14.1.0'}
     dependencies:
       cross-fetch: 3.1.5
@@ -1956,7 +1956,7 @@ packages:
       rimraf: 3.0.2
       tar-fs: 2.1.1
       unbzip2-stream: 1.4.3
-      ws: 8.10.0
+      ws: 8.11.0
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -1978,7 +1978,7 @@ packages:
     dependencies:
       debug: 4.3.4
       merge-deep: 3.0.3
-      puppeteer-extra: 3.3.4_puppeteer@19.4.0
+      puppeteer-extra: 3.3.4_puppeteer@19.4.1
       puppeteer-extra-plugin: 3.2.2_puppeteer-extra@3.3.4
     transitivePeerDependencies:
       - supports-color
@@ -1997,7 +1997,7 @@ packages:
         optional: true
     dependencies:
       debug: 4.3.4
-      puppeteer-extra: 3.3.4_puppeteer@19.4.0
+      puppeteer-extra: 3.3.4_puppeteer@19.4.1
       puppeteer-extra-plugin: 3.2.2_puppeteer-extra@3.3.4
       puppeteer-extra-plugin-user-preferences: 2.4.0_puppeteer-extra@3.3.4
     transitivePeerDependencies:
@@ -2018,7 +2018,7 @@ packages:
     dependencies:
       debug: 4.3.4
       fs-extra: 10.1.0
-      puppeteer-extra: 3.3.4_puppeteer@19.4.0
+      puppeteer-extra: 3.3.4_puppeteer@19.4.1
       puppeteer-extra-plugin: 3.2.2_puppeteer-extra@3.3.4
       rimraf: 3.0.2
     transitivePeerDependencies:
@@ -2039,7 +2039,7 @@ packages:
     dependencies:
       debug: 4.3.4
       deepmerge: 4.2.2
-      puppeteer-extra: 3.3.4_puppeteer@19.4.0
+      puppeteer-extra: 3.3.4_puppeteer@19.4.1
       puppeteer-extra-plugin: 3.2.2_puppeteer-extra@3.3.4
       puppeteer-extra-plugin-user-data-dir: 2.4.0_puppeteer-extra@3.3.4
     transitivePeerDependencies:
@@ -2061,12 +2061,12 @@ packages:
       '@types/debug': 4.1.7
       debug: 4.3.4
       merge-deep: 3.0.3
-      puppeteer-extra: 3.3.4_puppeteer@19.4.0
+      puppeteer-extra: 3.3.4_puppeteer@19.4.1
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /puppeteer-extra/3.3.4_puppeteer@19.4.0:
+  /puppeteer-extra/3.3.4_puppeteer@19.4.1:
     resolution: {integrity: sha512-fN5pHvSMJ8d1o7Z8wLLTQOUBpORD2BcFn+KDs7QnkGZs9SV69hcUcce67vX4L4bNSEG3A0P6Osrv+vWNhhdm8w==}
     engines: {node: '>=8'}
     peerDependencies:
@@ -2084,22 +2084,21 @@ packages:
       '@types/debug': 4.1.7
       debug: 4.3.4
       deepmerge: 4.2.2
-      puppeteer: 19.4.0
+      puppeteer: 19.4.1
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /puppeteer/19.4.0:
-    resolution: {integrity: sha512-sRzWEfFSZCCcFUJflGtYI2V7A6qK4Jht+2JiI2LZgn+Nv/LOZZsBDEaGl98ZrS8oEcUA5on4p2yJbE0nzHNzIg==}
+  /puppeteer/19.4.1:
+    resolution: {integrity: sha512-PCnrR13B8A+VSEDXRmrNXRZbrkF1tfsI1hKSC7vs13eNS6CUD3Y4FA8SF8/VZy+Pm1kg5AggJT2Nu3HLAtGkFg==}
     engines: {node: '>=14.1.0'}
     requiresBuild: true
     dependencies:
       cosmiconfig: 8.0.0
-      devtools-protocol: 0.0.1068969
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.4.0
+      puppeteer-core: 19.4.1
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -2843,8 +2842,8 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: false
 
-  /ws/8.10.0:
-    resolution: {integrity: sha512-+s49uSmZpvtAsd2h37vIPy1RBusaLawVe8of+GyEPsaJTCMpj/2v8NpeK1SHXjBlQ95lQTmQofOJnFiLoaN3yw==}
+  /ws/8.11.0:
+    resolution: {integrity: sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
