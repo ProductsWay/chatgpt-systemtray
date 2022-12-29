@@ -6,7 +6,7 @@ specifiers:
   '@types/node': 18.11.18
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.10
-  chatgpt: 3.3.7
+  chatgpt: 3.3.8
   consola: 2.15.3
   internal-ip: 7.0.0
   next: 13.1.1
@@ -23,7 +23,7 @@ specifiers:
 
 dependencies:
   '@tauri-apps/api': 2.0.0-alpha.0
-  chatgpt: 3.3.7_puppeteer@19.4.1
+  chatgpt: 3.3.8_puppeteer@19.4.1
   consola: 2.15.3
   next: 13.1.1_biqbaboplfbrettd7655fr4n2y
   next-swagger-doc: 0.3.6_next@13.1.1
@@ -592,8 +592,8 @@ packages:
     resolution: {integrity: sha512-mKKUkUbhPpQlCOfIuZkvSEgktjPFIsZKRRbC6KWVEMvlzblj3i3asQv5ODsrwt0N3pHAEvjP8KTQPHkp0+6jOg==}
     dev: false
 
-  /chatgpt/3.3.7_puppeteer@19.4.1:
-    resolution: {integrity: sha512-dR0/bfzlVbabVDgxj7D+qFH4PCWuCelojCetPTgYN0Eb1eOpJoPIn/d6YmYXEN54OiJ+espts2A/Yd8h6Q0OfA==}
+  /chatgpt/3.3.8_puppeteer@19.4.1:
+    resolution: {integrity: sha512-7MPR5gf0cTm/rthN171woFP5K3161gOIWe+mrWsQZPkwrLymL2K5+Y69xmuAmMzZHYehIQlDVKpoUQqbsU0hiQ==}
     engines: {node: '>=18'}
     peerDependencies:
       puppeteer: '*'
