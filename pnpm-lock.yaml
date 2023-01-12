@@ -6,14 +6,14 @@ specifiers:
   '@types/node': 18.11.18
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.10
-  chatgpt: 3.3.13
+  chatgpt: 3.4.1
   consola: 2.15.3
   internal-ip: 7.0.0
   next: 13.1.1
   next-swagger-doc: 0.3.6
   next-validations: 0.3.1
   ofetch: 1.0.0
-  puppeteer: 19.5.1
+  puppeteer: 19.5.2
   react: 18.2.0
   react-dom: 18.2.0
   react-hot-toast: 2.4.0
@@ -23,13 +23,13 @@ specifiers:
 
 dependencies:
   '@tauri-apps/api': 2.0.0-alpha.0
-  chatgpt: 3.3.13_puppeteer@19.5.1
+  chatgpt: 3.4.1_puppeteer@19.5.2
   consola: 2.15.3
   next: 13.1.1_biqbaboplfbrettd7655fr4n2y
   next-swagger-doc: 0.3.6_next@13.1.1
   next-validations: 0.3.1_next@13.1.1
   ofetch: 1.0.0
-  puppeteer: 19.5.1
+  puppeteer: 19.5.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hot-toast: 2.4.0_biqbaboplfbrettd7655fr4n2y
@@ -131,7 +131,7 @@ packages:
     dependencies:
       debug: 4.3.4
       merge-deep: 3.0.3
-      puppeteer-extra: 3.3.4_puppeteer@19.5.1
+      puppeteer-extra: 3.3.4_puppeteer@19.5.2
       puppeteer-extra-plugin: 3.2.2_puppeteer-extra@3.3.4
     transitivePeerDependencies:
       - supports-color
@@ -597,8 +597,8 @@ packages:
     resolution: {integrity: sha512-mKKUkUbhPpQlCOfIuZkvSEgktjPFIsZKRRbC6KWVEMvlzblj3i3asQv5ODsrwt0N3pHAEvjP8KTQPHkp0+6jOg==}
     dev: false
 
-  /chatgpt/3.3.13_puppeteer@19.5.1:
-    resolution: {integrity: sha512-dxXRKr83fZFBwVOnlbIsQ9sC4zgQ/4EWEBeiqfkahoXRm7IVj9202Y5qawdiDZtN+6+rjDkCjW1oxzqgv6nN4w==}
+  /chatgpt/3.4.1_puppeteer@19.5.2:
+    resolution: {integrity: sha512-aCFJRvJI9+HhuDquNi6ZgTrM524imnmZVY9lyyDo0F9LYJgCrk/h3XVqbzKDREsDW0IG4jHWIm8Q7R90FCAJmA==}
     engines: {node: '>=18'}
     peerDependencies:
       puppeteer: '*'
@@ -608,8 +608,8 @@ packages:
       expiry-map: 2.0.0
       html-to-md: 0.8.3
       p-timeout: 6.0.0
-      puppeteer: 19.5.1
-      puppeteer-extra: 3.3.4_puppeteer@19.5.1
+      puppeteer: 19.5.2
+      puppeteer-extra: 3.3.4_puppeteer@19.5.2
       puppeteer-extra-plugin-recaptcha: /@fisch0920/puppeteer-extra-plugin-recaptcha/3.6.6_puppeteer-extra@3.3.4
       puppeteer-extra-plugin-stealth: 2.11.1_puppeteer-extra@3.3.4
       random: 4.1.0
@@ -1972,8 +1972,8 @@ packages:
     resolution: {integrity: sha512-RofWgt/7fL5wP1Y7fxE7/EmTLzQVnB0ycyibJ0OOHIlJqTNzglYFxVwETOcIoJqJmpDXJ9xImDv+Fq34F/d4Dw==}
     dev: false
 
-  /puppeteer-core/19.5.1:
-    resolution: {integrity: sha512-+ai/wdeAulICv1a7Gs3W+WKb+CCqsNRM1n5IdR3w+KVGg/wcqE9VPgp6fXsjA16XAA+4kWofYxN6xLl1S0OKpg==}
+  /puppeteer-core/19.5.2:
+    resolution: {integrity: sha512-Rqk+3kqM+Z2deooTYqcYt8lRtGffJdifWa9td9nbJSjhANWsFouk8kLBNUKycewCCFHM8TZUKS0x28OllavW2A==}
     engines: {node: '>=14.1.0'}
     dependencies:
       cross-fetch: 3.1.5
@@ -2006,7 +2006,7 @@ packages:
         optional: true
     dependencies:
       debug: 4.3.4
-      puppeteer-extra: 3.3.4_puppeteer@19.5.1
+      puppeteer-extra: 3.3.4_puppeteer@19.5.2
       puppeteer-extra-plugin: 3.2.2_puppeteer-extra@3.3.4
       puppeteer-extra-plugin-user-preferences: 2.4.0_puppeteer-extra@3.3.4
     transitivePeerDependencies:
@@ -2027,7 +2027,7 @@ packages:
     dependencies:
       debug: 4.3.4
       fs-extra: 10.1.0
-      puppeteer-extra: 3.3.4_puppeteer@19.5.1
+      puppeteer-extra: 3.3.4_puppeteer@19.5.2
       puppeteer-extra-plugin: 3.2.2_puppeteer-extra@3.3.4
       rimraf: 3.0.2
     transitivePeerDependencies:
@@ -2048,7 +2048,7 @@ packages:
     dependencies:
       debug: 4.3.4
       deepmerge: 4.2.2
-      puppeteer-extra: 3.3.4_puppeteer@19.5.1
+      puppeteer-extra: 3.3.4_puppeteer@19.5.2
       puppeteer-extra-plugin: 3.2.2_puppeteer-extra@3.3.4
       puppeteer-extra-plugin-user-data-dir: 2.4.0_puppeteer-extra@3.3.4
     transitivePeerDependencies:
@@ -2070,12 +2070,12 @@ packages:
       '@types/debug': 4.1.7
       debug: 4.3.4
       merge-deep: 3.0.3
-      puppeteer-extra: 3.3.4_puppeteer@19.5.1
+      puppeteer-extra: 3.3.4_puppeteer@19.5.2
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /puppeteer-extra/3.3.4_puppeteer@19.5.1:
+  /puppeteer-extra/3.3.4_puppeteer@19.5.2:
     resolution: {integrity: sha512-fN5pHvSMJ8d1o7Z8wLLTQOUBpORD2BcFn+KDs7QnkGZs9SV69hcUcce67vX4L4bNSEG3A0P6Osrv+vWNhhdm8w==}
     engines: {node: '>=8'}
     peerDependencies:
@@ -2093,13 +2093,13 @@ packages:
       '@types/debug': 4.1.7
       debug: 4.3.4
       deepmerge: 4.2.2
-      puppeteer: 19.5.1
+      puppeteer: 19.5.2
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /puppeteer/19.5.1:
-    resolution: {integrity: sha512-8097xQkzbeA7jw4ubXvz7R5Lmt5Tpj9RzbetP/W1BGiHoIwgoniFwl6gpoWtGsLfI8m69YCLnxzWCW5XBMtz1g==}
+  /puppeteer/19.5.2:
+    resolution: {integrity: sha512-xlqRyrhXhVH114l79Y0XqYXUVG+Yfw4sKlvN55t8Y9DxtA5fzI1uqF8SVXbWK5DUMbD6Jo4lpixTZCTTZGD05g==}
     engines: {node: '>=14.1.0'}
     requiresBuild: true
     dependencies:
@@ -2107,7 +2107,7 @@ packages:
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.5.1
+      puppeteer-core: 19.5.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
