@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@tauri-apps/api": "2.0.0-alpha.0",
-    "chatgpt": "3.4.1",
+    "chatgpt": "3.4.2",
     "consola": "2.15.3",
     "next": "13.1.2",
     "next-swagger-doc": "0.3.6",
