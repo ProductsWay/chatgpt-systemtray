@@ -18,7 +18,7 @@ specifiers:
   react-dom: 18.2.0
   react-hot-toast: 2.4.0
   swagger-ui-react: 4.15.5
-  typescript: 4.9.4
+  typescript: 4.9.5
   zod: 3.20.2
 
 dependencies:
@@ -42,7 +42,7 @@ devDependencies:
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
   internal-ip: 7.0.0
-  typescript: 4.9.4
+  typescript: 4.9.5
 
 packages:
 
@@ -2753,8 +2753,8 @@ packages:
     resolution: {integrity: sha512-zumH8ohtlidBe1aqRY99OxaUY1SCdtyQlCxiXlnAyPMby6GtMem4Y7+geySt/k3MFs0pnNzQpI/nSki4yJp5Jg==}
     dev: false
 
-  /typescript/4.9.4:
-    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
