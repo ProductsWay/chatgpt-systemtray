@@ -9,23 +9,23 @@
   },
   "dependencies": {
     "@tauri-apps/api": "2.0.0-alpha.0",
-    "chatgpt": "3.5.1",
+    "chatgpt": "3.5.2",
     "consola": "2.15.3",
     "next": "13.1.6",
     "next-swagger-doc": "0.3.6",
     "next-validations": "0.3.1",
     "ofetch": "1.0.0",
-    "puppeteer": "19.6.3",
+    "puppeteer": "19.7.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "2.4.0",
     "swagger-ui-react": "4.15.5",
-    "zod": "3.20.2"
+    "zod": "3.20.6"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "2.0.0-alpha.1",
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.27",
+    "@tauri-apps/cli": "2.0.0-alpha.2",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.28",
     "@types/react-dom": "18.0.10",
     "internal-ip": "7.0.0",
     "typescript": "4.9.5"
