@@ -19,7 +19,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "2.4.0",
-    "swagger-ui-react": "4.16.0",
+    "swagger-ui-react": "4.16.1",
     "zod": "3.20.6"
   },
   "devDependencies": {
