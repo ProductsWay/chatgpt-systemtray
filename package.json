@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@tauri-apps/api": "2.0.0-alpha.0",
-    "chatgpt": "5.0.5",
+    "chatgpt": "5.0.6",
     "consola": "2.15.3",
     "next": "13.2.3",
     "next-swagger-doc": "0.3.6",
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@tauri-apps/cli": "2.0.0-alpha.2",
-    "@types/node": "18.14.5",
+    "@types/node": "18.14.6",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "internal-ip": "7.0.0",
