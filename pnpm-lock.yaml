@@ -19,7 +19,7 @@ specifiers:
   react-hot-toast: 2.4.0
   swagger-ui-react: 4.17.0
   typescript: 4.9.5
-  zod: 3.20.6
+  zod: 3.21.0
 
 dependencies:
   '@tauri-apps/api': 2.0.0-alpha.0
@@ -34,7 +34,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-hot-toast: 2.4.0_biqbaboplfbrettd7655fr4n2y
   swagger-ui-react: 4.17.0_biqbaboplfbrettd7655fr4n2y
-  zod: 3.20.6
+  zod: 3.21.0
 
 devDependencies:
   '@tauri-apps/cli': 2.0.0-alpha.2
@@ -3225,6 +3225,6 @@ packages:
     resolution: {integrity: sha512-jEA1znR7b4C/NnaycInCU6h/d15ZzCd1jmsruqOKnZP6WXQSMH3W2GL+OXbkruslU4h+Tzuos0HdswzRUk/Vgg==}
     dev: false
 
-  /zod/3.20.6:
-    resolution: {integrity: sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==}
+  /zod/3.21.0:
+    resolution: {integrity: sha512-UYdykTcVxB6lfdyLzAqLyyYAlOcpoluECvjsdoaqfQmz9p+3LRaIqYcNiL/J2kFYp66fBM8wwBvIGVEjq7KtZw==}
     dev: false
