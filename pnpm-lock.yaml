@@ -3,10 +3,10 @@ lockfileVersion: 5.4
 specifiers:
   '@tauri-apps/api': 2.0.0-alpha.0
   '@tauri-apps/cli': 2.0.0-alpha.2
-  '@types/node': 18.14.6
+  '@types/node': 18.15.0
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
-  chatgpt: 5.0.8
+  chatgpt: 5.0.9
   consola: 2.15.3
   internal-ip: 7.0.0
   next: 13.2.3
@@ -23,7 +23,7 @@ specifiers:
 
 dependencies:
   '@tauri-apps/api': 2.0.0-alpha.0
-  chatgpt: 5.0.8
+  chatgpt: 5.0.9
   consola: 2.15.3
   next: 13.2.3_biqbaboplfbrettd7655fr4n2y
   next-swagger-doc: 0.3.6_next@13.2.3
@@ -38,7 +38,7 @@ dependencies:
 
 devDependencies:
   '@tauri-apps/cli': 2.0.0-alpha.2
-  '@types/node': 18.14.6
+  '@types/node': 18.15.0
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   internal-ip: 7.0.0
@@ -667,8 +667,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: false
 
-  /@types/node/18.14.6:
-    resolution: {integrity: sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==}
+  /@types/node/18.15.0:
+    resolution: {integrity: sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==}
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -710,7 +710,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 18.14.6
+      '@types/node': 18.15.0
     dev: false
     optional: true
 
@@ -921,8 +921,8 @@ packages:
     resolution: {integrity: sha512-mKKUkUbhPpQlCOfIuZkvSEgktjPFIsZKRRbC6KWVEMvlzblj3i3asQv5ODsrwt0N3pHAEvjP8KTQPHkp0+6jOg==}
     dev: false
 
-  /chatgpt/5.0.8:
-    resolution: {integrity: sha512-Bjh7Y15QIsZ+SkQvbbZGymv1PGxkZ7X1vwqAwvyqaMMhbipU4kxht/GL62VCxhoUCXPwxTfScbFeNFtNldgqaw==}
+  /chatgpt/5.0.9:
+    resolution: {integrity: sha512-H0MMegLKcYyYh3LeFO4ubIdJSiSAl4rRjTeXf3KjHfGXDM7QZ1EkiTH9RuIoaNzOm8rJTn4QEhrwBbOIpbalxw==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
