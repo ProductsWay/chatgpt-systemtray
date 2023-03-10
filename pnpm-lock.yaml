@@ -13,11 +13,11 @@ specifiers:
   next-swagger-doc: 0.3.6
   next-validations: 0.3.1
   ofetch: 1.0.1
-  puppeteer: 19.7.3
+  puppeteer: 19.7.4
   react: 18.2.0
   react-dom: 18.2.0
   react-hot-toast: 2.4.0
-  swagger-ui-react: 4.18.0
+  swagger-ui-react: 4.18.1
   typescript: 4.9.5
   zod: 3.21.4
 
@@ -29,11 +29,11 @@ dependencies:
   next-swagger-doc: 0.3.6_next@13.2.4
   next-validations: 0.3.1_next@13.2.4
   ofetch: 1.0.1
-  puppeteer: 19.7.3_typescript@4.9.5
+  puppeteer: 19.7.4_typescript@4.9.5
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hot-toast: 2.4.0_biqbaboplfbrettd7655fr4n2y
-  swagger-ui-react: 4.18.0_3xleytyzprlgycb2ded54tx72i
+  swagger-ui-react: 4.18.1_3xleytyzprlgycb2ded54tx72i
   zod: 3.21.4
 
 devDependencies:
@@ -1430,6 +1430,16 @@ packages:
       path-is-absolute: 1.0.1
     dev: false
 
+  /glob/9.2.1:
+    resolution: {integrity: sha512-Pxxgq3W0HyA3XUvSXcFhRSs+43Jsx0ddxcFrbjxNGkL2Ak5BAUBxLqI5G6ADDeCHLfzzXFhe0b1yYcctGmytMA==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    dependencies:
+      fs.realpath: 1.0.0
+      minimatch: 7.4.2
+      minipass: 4.2.4
+      path-scurry: 1.6.1
+    dev: false
+
   /goober/2.1.12:
     resolution: {integrity: sha512-yXHAvO08FU1JgTXX6Zn6sYCUFfB/OJSX8HHjDSgerZHZmFKAb08cykp5LBw5QnmyMcZyPRMqkdyHUSSzge788Q==}
     peerDependencies:
@@ -1766,6 +1776,11 @@ packages:
       yallist: 4.0.0
     dev: false
 
+  /lru-cache/7.18.3:
+    resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
+    engines: {node: '>=12'}
+    dev: false
+
   /merge-stream/2.0.0:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
     dev: true
@@ -1826,8 +1841,20 @@ packages:
       brace-expansion: 2.0.1
     dev: false
 
+  /minimatch/7.4.2:
+    resolution: {integrity: sha512-xy4q7wou3vUoC9k1xGTXc+awNdGaGVHtFUaey8tiX4H1QRc04DZ/rmDFwNm2EBsuYEhAZ6SgMmYf3InGY6OauA==}
+    engines: {node: '>=10'}
+    dependencies:
+      brace-expansion: 2.0.1
+    dev: false
+
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+    dev: false
+
+  /minipass/4.2.4:
+    resolution: {integrity: sha512-lwycX3cBMTvcejsHITUgYj6Gy6A7Nh4Q6h9NP4sTHY1ccJlC7yKzDmiShEHsJ16Jf1nKGDEaiHxiltsJEvk0nQ==}
+    engines: {node: '>=8'}
     dev: false
 
   /mitt/3.0.0:
@@ -2145,6 +2172,14 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /path-scurry/1.6.1:
+    resolution: {integrity: sha512-OW+5s+7cw6253Q4E+8qQ/u1fVvcJQCJo/VFD8pje+dbJCF1n5ZRMV2AEHbGp+5Q7jxQIYJxkHopnj6nzdGeZLA==}
+    engines: {node: '>=14'}
+    dependencies:
+      lru-cache: 7.18.3
+      minipass: 4.2.4
+    dev: false
+
   /path-type/4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
@@ -2252,8 +2287,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /puppeteer-core/19.7.3_typescript@4.9.5:
-    resolution: {integrity: sha512-9Q5HahsstfoTnllcpNkxNu2z9J7V0Si5Mr5q90K6XSXwW1P8iqe8q3HzWViVuBuEYTSMZ2LaXXzTEYeoCzLEWg==}
+  /puppeteer-core/19.7.4_typescript@4.9.5:
+    resolution: {integrity: sha512-E8nVhqGF0ZM7s9pb5849gzKFG7282WYZaeGXo/eYDkpUpcPUgmkj7QrAoa8SpFXXyqHHilHJZPbfVBb4foDazQ==}
     engines: {node: '>=14.14.0'}
     peerDependencies:
       typescript: '>= 4.7.4'
@@ -2268,6 +2303,7 @@ packages:
       extract-zip: 2.0.1
       https-proxy-agent: 5.0.1
       proxy-from-env: 1.1.0
+      rimraf: 4.4.0
       tar-fs: 2.1.1
       typescript: 4.9.5
       unbzip2-stream: 1.4.3
@@ -2279,15 +2315,15 @@ packages:
       - utf-8-validate
     dev: false
 
-  /puppeteer/19.7.3_typescript@4.9.5:
-    resolution: {integrity: sha512-QEiRHPUAJp8VOK27zE6h2ne4xKVYibKUZpvjCuLYaAe8/2SOLKIgstF8wK3YaLgTkeruMrYfqZo+Qlw4ZkJDAQ==}
+  /puppeteer/19.7.4_typescript@4.9.5:
+    resolution: {integrity: sha512-TdiNEG27BahPab4B/xfUth/L8yWV8ZT4D+/n01DWjK6pPQ2HgCGJGbL3dlSxUvor6dtxFBe16CEQ9JWXh0SCaQ==}
     requiresBuild: true
     dependencies:
       cosmiconfig: 8.1.0
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.7.3_typescript@4.9.5
+      puppeteer-core: 19.7.4_typescript@4.9.5
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -2602,6 +2638,14 @@ packages:
       glob: 7.2.3
     dev: false
 
+  /rimraf/4.4.0:
+    resolution: {integrity: sha512-X36S+qpCUR0HjXlkDe4NAOhS//aHH0Z+h8Ckf2auGJk3PTnx5rLmrHkwNdbVQuCSUhOyFrlRvFEllZOYE+yZGQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      glob: 9.2.1
+    dev: false
+
   /safe-buffer/5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
     dev: false
@@ -2874,8 +2918,8 @@ packages:
       - openapi-types
     dev: false
 
-  /swagger-ui-react/4.18.0_3xleytyzprlgycb2ded54tx72i:
-    resolution: {integrity: sha512-94yBtrEb1Scu1ogKsaB6AtJixJvjydtTftqjVlhyGujwKLXW/ZEz5cLtOptKpKDrP4oEIOBm1ByctqgjJslfzw==}
+  /swagger-ui-react/4.18.1_3xleytyzprlgycb2ded54tx72i:
+    resolution: {integrity: sha512-ntD8CUJ4K6Yt9x1yZq4HTQoTTCRL6PvINtqS7ot2Dealcq/vX0BTaPHAo+Jq7fbROuVdZCOrjeDNRdzJvWumNQ==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
