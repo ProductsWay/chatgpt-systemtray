@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@tauri-apps/api': 2.0.0-alpha.0
   '@tauri-apps/cli': 2.0.0-alpha.2
-  '@types/node': 18.15.2
+  '@types/node': 18.15.3
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   chatgpt: 5.0.10
@@ -13,7 +13,7 @@ specifiers:
   next-swagger-doc: 0.3.6
   next-validations: 0.3.1
   ofetch: 1.0.1
-  puppeteer: 19.7.4
+  puppeteer: 19.7.5
   react: 18.2.0
   react-dom: 18.2.0
   react-hot-toast: 2.4.0
@@ -29,7 +29,7 @@ dependencies:
   next-swagger-doc: 0.3.6_next@13.2.4
   next-validations: 0.3.1_next@13.2.4
   ofetch: 1.0.1
-  puppeteer: 19.7.4_typescript@4.9.5
+  puppeteer: 19.7.5_typescript@4.9.5
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hot-toast: 2.4.0_biqbaboplfbrettd7655fr4n2y
@@ -38,7 +38,7 @@ dependencies:
 
 devDependencies:
   '@tauri-apps/cli': 2.0.0-alpha.2
-  '@types/node': 18.15.2
+  '@types/node': 18.15.3
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   internal-ip: 7.0.0
@@ -667,8 +667,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: false
 
-  /@types/node/18.15.2:
-    resolution: {integrity: sha512-sDPHm2wfx2QhrMDK0pOt2J4KLJMAcerqWNvnED0itPRJWvI+bK+uNHzcH1dFsBlf7G3u8tqXmRF3wkvL9yUwMw==}
+  /@types/node/18.15.3:
+    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -710,7 +710,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 18.15.2
+      '@types/node': 18.15.3
     dev: false
     optional: true
 
@@ -941,8 +941,8 @@ packages:
     resolution: {integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==}
     dev: false
 
-  /chromium-bidi/0.4.4_6o5gdkn34s2j2m26x63ssheuqa:
-    resolution: {integrity: sha512-4BX5cSaponuvVT1+SbLYTOAgDoVtX/Khoc9UsbFJ/AsPVUeFAM3RiIDFI6XFhLYMi9WmVJqh1ZH+dRpNKkKwiQ==}
+  /chromium-bidi/0.4.5_6o5gdkn34s2j2m26x63ssheuqa:
+    resolution: {integrity: sha512-rkav9YzRfAshSTG3wNXF7P7yNiI29QAo1xBXElPoCoSQR5n20q3cOyVhDv6S7+GlF/CJ/emUxlQiR0xOPurkGg==}
     peerDependencies:
       devtools-protocol: '*'
     dependencies:
@@ -2287,8 +2287,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /puppeteer-core/19.7.4_typescript@4.9.5:
-    resolution: {integrity: sha512-E8nVhqGF0ZM7s9pb5849gzKFG7282WYZaeGXo/eYDkpUpcPUgmkj7QrAoa8SpFXXyqHHilHJZPbfVBb4foDazQ==}
+  /puppeteer-core/19.7.5_typescript@4.9.5:
+    resolution: {integrity: sha512-EJuNha+SxPfaYFbkoWU80H3Wb1SiQH5fFyb2xdbWda0ziax5mhV63UMlqNfPeTDIWarwtR4OIcq/9VqY8HPOsg==}
     engines: {node: '>=14.14.0'}
     peerDependencies:
       typescript: '>= 4.7.4'
@@ -2296,7 +2296,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      chromium-bidi: 0.4.4_6o5gdkn34s2j2m26x63ssheuqa
+      chromium-bidi: 0.4.5_6o5gdkn34s2j2m26x63ssheuqa
       cross-fetch: 3.1.5
       debug: 4.3.4
       devtools-protocol: 0.0.1094867
@@ -2315,15 +2315,15 @@ packages:
       - utf-8-validate
     dev: false
 
-  /puppeteer/19.7.4_typescript@4.9.5:
-    resolution: {integrity: sha512-TdiNEG27BahPab4B/xfUth/L8yWV8ZT4D+/n01DWjK6pPQ2HgCGJGbL3dlSxUvor6dtxFBe16CEQ9JWXh0SCaQ==}
+  /puppeteer/19.7.5_typescript@4.9.5:
+    resolution: {integrity: sha512-UqD8K+yaZa6/hwzP54AATCiHrEYGGxzQcse9cZzrtsVGd8wT0llCdYhsBp8n+zvnb1ofY0YFgI3TYZ/MiX5uXQ==}
     requiresBuild: true
     dependencies:
       cosmiconfig: 8.1.0
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.7.4_typescript@4.9.5
+      puppeteer-core: 19.7.5_typescript@4.9.5
     transitivePeerDependencies:
       - bufferutil
       - encoding
