@@ -24,7 +24,7 @@ dependencies:
     version: 1.0.1
   puppeteer:
     specifier: 19.8.2
-    version: 19.8.2(typescript@4.9.5)
+    version: 19.8.2(typescript@5.0.3)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -58,8 +58,8 @@ devDependencies:
     specifier: 7.0.0
     version: 7.0.0
   typescript:
-    specifier: 4.9.5
-    version: 4.9.5
+    specifier: 5.0.3
+    version: 5.0.3
 
 packages:
 
@@ -264,7 +264,7 @@ packages:
     dev: false
     optional: true
 
-  /@puppeteer/browsers@0.3.1(typescript@4.9.5):
+  /@puppeteer/browsers@0.3.1(typescript@5.0.3):
     resolution: {integrity: sha512-WTFVqWY7ipI+CsJRb6vEddYJ/lMl2bHYP5BjFDBM9JMKPjJNT4psXz6DLuJpi3EkG80Q0ef5Azzv3gKu9MvMUg==}
     engines: {node: '>=14.1.0'}
     hasBin: true
@@ -280,7 +280,7 @@ packages:
       progress: 2.0.3
       proxy-from-env: 1.1.0
       tar-fs: 2.1.1
-      typescript: 4.9.5
+      typescript: 5.0.3
       unbzip2-stream: 1.4.3
       yargs: 17.7.1
     transitivePeerDependencies:
@@ -2334,7 +2334,7 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /puppeteer-core@19.8.1(typescript@4.9.5):
+  /puppeteer-core@19.8.1(typescript@5.0.3):
     resolution: {integrity: sha512-7yPMzusYRvJ/laLaMFIQ01E9WakKkJJXLsMAymH6y5EKqYe5hhn68/SbvF+1YJMb843GftU7gT86Fw8y5jkn3w==}
     engines: {node: '>=14.14.0'}
     peerDependencies:
@@ -2351,7 +2351,7 @@ packages:
       https-proxy-agent: 5.0.1
       proxy-from-env: 1.1.0
       tar-fs: 2.1.1
-      typescript: 4.9.5
+      typescript: 5.0.3
       unbzip2-stream: 1.4.3
       ws: 8.13.0
     transitivePeerDependencies:
@@ -2361,16 +2361,16 @@ packages:
       - utf-8-validate
     dev: false
 
-  /puppeteer@19.8.2(typescript@4.9.5):
+  /puppeteer@19.8.2(typescript@5.0.3):
     resolution: {integrity: sha512-LPdNVYMR6ddp4YS3GK1bqKsasCJj1aZjt9dNOKcnzKezuMoishlHY6bCnFLjTc34iqnGzIrJp07TQ9M+aML2+g==}
     requiresBuild: true
     dependencies:
-      '@puppeteer/browsers': 0.3.1(typescript@4.9.5)
+      '@puppeteer/browsers': 0.3.1(typescript@5.0.3)
       cosmiconfig: 8.1.3
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.8.1(typescript@4.9.5)
+      puppeteer-core: 19.8.1(typescript@5.0.3)
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -3141,9 +3141,9 @@ packages:
     resolution: {integrity: sha512-zumH8ohtlidBe1aqRY99OxaUY1SCdtyQlCxiXlnAyPMby6GtMem4Y7+geySt/k3MFs0pnNzQpI/nSki4yJp5Jg==}
     dev: false
 
-  /typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
+  /typescript@5.0.3:
+    resolution: {integrity: sha512-xv8mOEDnigb/tN9PSMTwSEqAnUvkoXMQlicOb0IUVDBSQCgBSaAAROUZYy2IcUy5qU6XajK5jjjO7TMWqBTKZA==}
+    engines: {node: '>=12.20'}
     hasBin: true
 
   /ufo@1.1.1:
