@@ -17,8 +17,8 @@ dependencies:
     specifier: 0.3.6
     version: 0.3.6(next@13.2.4)(openapi-types@12.1.0)
   next-validations:
-    specifier: 0.3.1
-    version: 0.3.1(next@13.2.4)
+    specifier: 0.3.2
+    version: 0.3.2(next@13.2.4)
   ofetch:
     specifier: 1.0.1
     version: 1.0.1
@@ -1951,14 +1951,14 @@ packages:
       - openapi-types
     dev: false
 
-  /next-validations@0.3.1(next@13.2.4):
-    resolution: {integrity: sha512-oA75bp4LdKqegjcM2H380Q+ETXjr1ayWi+oUu/miWfvh4Eig1/niTybfEjiigRpn1oElvSgnmUuIyPvFVA11+g==}
+  /next-validations@0.3.2(next@13.2.4):
+    resolution: {integrity: sha512-C3l9baov/Z9skxWsMKFAlOYjN+mVqt2M+Wmvzv/nzCz/glsYN95ot/vi1HBD5GAFiOMW0xIlc64ChYhNLDjy1w==}
     engines: {node: '>=14'}
     peerDependencies:
       next: '*'
     dependencies:
       next: 13.2.4(react-dom@18.2.0)(react@18.2.0)
-      type-fest: 3.2.0
+      type-fest: 3.7.2
     dev: false
 
   /next@13.2.4(react-dom@18.2.0)(react@18.2.0):
@@ -3132,8 +3132,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: false
 
-  /type-fest@3.2.0:
-    resolution: {integrity: sha512-Il3wdLRzWvbAEtocgxGQA9YOoRVeVUGOMBtel5LdEpNeEAol6GJTLw8GbX6Z8EIMfvfhoOXs2bwOijtAZdK5og==}
+  /type-fest@3.7.2:
+    resolution: {integrity: sha512-f9BHrLjRJ4MYkfOsnC/53PNDzZJcVo14MqLp2+hXE39p5bgwqohxR5hDZztwxlbxmIVuvC2EFAKrAkokq23PLA==}
     engines: {node: '>=14.16'}
     dev: false
 
