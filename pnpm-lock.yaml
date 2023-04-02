@@ -5,8 +5,8 @@ dependencies:
     specifier: 2.0.0-alpha.1
     version: 2.0.0-alpha.1
   chatgpt:
-    specifier: 5.1.4
-    version: 5.1.4
+    specifier: 5.2.2
+    version: 5.2.2
   consola:
     specifier: 2.15.3
     version: 2.15.3
@@ -969,15 +969,15 @@ packages:
     resolution: {integrity: sha512-mKKUkUbhPpQlCOfIuZkvSEgktjPFIsZKRRbC6KWVEMvlzblj3i3asQv5ODsrwt0N3pHAEvjP8KTQPHkp0+6jOg==}
     dev: false
 
-  /chatgpt@5.1.4:
-    resolution: {integrity: sha512-pGlsZz+wnMNfq6XuiDR1dPeNUiWVOdl+0Fu7aSEEHcLVocxtCI6Wzl1L4ULdkb75U7Iu8P5S3L6CLBUVmw3Ldg==}
+  /chatgpt@5.2.2:
+    resolution: {integrity: sha512-6HVueHj7ghJtcsBHi8CfXCC5fbCXJMc29NSGluTcg/2yLo0Jla3Wm/dlcz3cIb+7KVBKD5b6Qz5bVu8XFEF7Sg==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@dqbd/tiktoken': 1.0.2
       cac: 6.7.14
       conf: 11.0.1
-      eventsource-parser: 0.0.5
+      eventsource-parser: 1.0.0
       keyv: 4.5.2
       p-timeout: 6.1.1
       quick-lru: 6.1.1
@@ -1296,9 +1296,9 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /eventsource-parser@0.0.5:
-    resolution: {integrity: sha512-BAq82bC3ZW9fPYYZlofXBOAfbpmDzXIOsj+GOehQwgTUYsQZ6HtHs6zuRtge7Ph8OhS6lNH1kJF8q9dj17RcmA==}
-    engines: {node: '>=12'}
+  /eventsource-parser@1.0.0:
+    resolution: {integrity: sha512-9jgfSCa3dmEme2ES3mPByGXfgZ87VbP97tng1G2nWwWx6bV2nYxm2AWCrbQjXToSe+yYlqaZNtxffR9IeQr95g==}
+    engines: {node: '>=14.18'}
     dev: false
 
   /execa@5.1.1:
