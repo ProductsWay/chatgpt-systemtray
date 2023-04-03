@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@tauri-apps/api':
-    specifier: 2.0.0-alpha.1
-    version: 2.0.0-alpha.1
+    specifier: 2.0.0-alpha.2
+    version: 2.0.0-alpha.2
   chatgpt:
     specifier: 5.2.2
     version: 5.2.2
@@ -589,8 +589,8 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@tauri-apps/api@2.0.0-alpha.1:
-    resolution: {integrity: sha512-KNFNtO67atq2Bl+2+HZOQgYjmqDB42fimFVSkd8yLjU/kO1I0rmhxplKffHlB1Mc9mAqE/VX56tCE3PGAeumAg==}
+  /@tauri-apps/api@2.0.0-alpha.2:
+    resolution: {integrity: sha512-YLtCuW3ETqbR+Y89S5VV/JdoxcoojZ3rQdIVu3yIyw3M+JL/sCOGziNx/UXOViDoSD+ZyKYPDA0lUnliObW16Q==}
     engines: {node: '>= 14.6.0', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
     dev: false
 
