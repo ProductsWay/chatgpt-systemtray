@@ -120,7 +120,7 @@ packages:
     resolution: {integrity: sha512-TDD4UJzos3JJtM+tHX+w2Uc+KWj7GV+VKKFdMVd2Rx8sdA19hcc3P3AHFYd5LVOw+pYuSd5lICC3gm52B6Rwxw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      core-js-pure: 3.30.0
+      core-js-pure: 3.30.1
       regenerator-runtime: 0.13.11
     dev: false
 
@@ -135,8 +135,8 @@ packages:
     resolution: {integrity: sha512-Tbsj02wXCbqGmzdnXNk0SOF19ChhRU70BsroIi4Pm6Ehp56in6vch94mfbdQ17DozxkL3BAVjbZ4Qc1a0HFRAg==}
     dev: false
 
-  /@dqbd/tiktoken@1.0.4:
-    resolution: {integrity: sha512-C0HrJj2RNlsB3wslfNHGNH8xN7QQMki+y4JkUor/GE+oIfPvH7yVep9l1/2powam8AAH6+gdv5MggA5gsszweg==}
+  /@dqbd/tiktoken@1.0.6:
+    resolution: {integrity: sha512-umSdeZTy/SbPPKVuZKV/XKyFPmXSN145CcM3iHjBbmhlohBJg7vaDp4cPCW+xNlWL6L2U1sp7T2BD+di2sUKdA==}
     dev: false
 
   /@jsdevtools/ono@7.1.3:
@@ -907,8 +907,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite@1.0.30001477:
-    resolution: {integrity: sha512-lZim4iUHhGcy5p+Ri/G7m84hJwncj+Kz7S5aD4hoQfslKZJgt0tHc/hafVbqHC5bbhHb+mrW2JOUHkI5KH7toQ==}
+  /caniuse-lite@1.0.30001479:
+    resolution: {integrity: sha512-6nuRFim5dx8Eu2tO+KJ9PiBdPHs7WB5Hdf+klDcyefyEuOAcfhihIv7pS+JFknJLUiNQbm1AJYKm0c9QOlQS/Q==}
     dev: false
 
   /chalk@2.4.2:
@@ -945,7 +945,7 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
-      '@dqbd/tiktoken': 1.0.4
+      '@dqbd/tiktoken': 1.0.6
       cac: 6.7.14
       conf: 11.0.1
       eventsource-parser: 1.0.0
@@ -1061,7 +1061,7 @@ packages:
       dot-prop: 7.2.0
       env-paths: 3.0.0
       json-schema-typed: 8.0.1
-      semver: 7.3.8
+      semver: 7.4.0
     dev: false
 
   /consola@2.15.3:
@@ -1084,8 +1084,8 @@ packages:
       toggle-selection: 1.0.6
     dev: false
 
-  /core-js-pure@3.30.0:
-    resolution: {integrity: sha512-+2KbMFGeBU0ln/csoPqTe0i/yfHbrd2EUhNMObsGtXMKS/RTtlkYyi+/3twLcevbgNR0yM/r0Psa3TEoQRpFMQ==}
+  /core-js-pure@3.30.1:
+    resolution: {integrity: sha512-nXBEVpmUnNRhz83cHd9JRQC52cTMcuXAmR56+9dSMpRdpeA4I1PX6yjmhd71Eyc/wXNsdBdUDIj1QTIeZpU5Tg==}
     requiresBuild: true
     dev: false
 
@@ -1638,8 +1638,8 @@ packages:
       ci-info: 2.0.0
     dev: false
 
-  /is-core-module@2.11.0:
-    resolution: {integrity: sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==}
+  /is-core-module@2.12.0:
+    resolution: {integrity: sha512-RECHCBCd/viahWmwj6enj19sKbHfJrddi/6cBDsNTKbNq0f7VeaUkBo60BqzvPqo/W54ChS62Z5qyun7cfOMqQ==}
     dependencies:
       has: 1.0.3
     dev: false
@@ -1956,7 +1956,7 @@ packages:
       '@next/env': 13.3.0
       '@swc/helpers': 0.4.14
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001477
+      caniuse-lite: 1.0.30001479
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2013,8 +2013,8 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       hosted-git-info: 4.1.0
-      is-core-module: 2.11.0
-      semver: 7.3.8
+      is-core-module: 2.12.0
+      semver: 7.4.0
       validate-npm-package-license: 3.0.4
     dev: false
 
@@ -2638,8 +2638,8 @@ packages:
     resolution: {integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==}
     dev: false
 
-  /reselect@4.1.7:
-    resolution: {integrity: sha512-Zu1xbUt3/OPwsXL46hvOOoQrap2azE7ZQbokq61BQfiXvhewsKDwhMeZjTX9sX0nvw1t/U5Audyn1I9P/m9z0A==}
+  /reselect@4.1.8:
+    resolution: {integrity: sha512-ab9EmR80F/zQTMNeneUr4cv+jSwPJgIlvEmVwLerwrWVbpLlBuls9XHzIeTFy4cegU2NHBp3va0LKOzU5qFEYQ==}
     dev: false
 
   /resolve-from@4.0.0:
@@ -2679,8 +2679,8 @@ packages:
     hasBin: true
     dev: false
 
-  /semver@7.3.8:
-    resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
+  /semver@7.4.0:
+    resolution: {integrity: sha512-RgOxM8Mw+7Zus0+zcLEUn8+JfoLpj/huFTItQy2hsM4khuC1HYRDp0cU482Ewn/Fcy6bCjufD8vAj7voC66KQw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -2986,7 +2986,7 @@ packages:
       redux: 4.2.1
       redux-immutable: 4.0.0(immutable@3.8.2)
       remarkable: 2.0.1
-      reselect: 4.1.7
+      reselect: 4.1.8
       serialize-error: 8.1.0
       sha.js: 2.4.11
       swagger-client: 3.19.6
