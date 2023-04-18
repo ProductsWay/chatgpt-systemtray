@@ -8,8 +8,8 @@ dependencies:
     specifier: 5.2.2
     version: 5.2.2
   consola:
-    specifier: 2.15.3
-    version: 2.15.3
+    specifier: 3.1.0
+    version: 3.1.0
   next:
     specifier: 13.3.0
     version: 13.3.0(react-dom@18.2.0)(react@18.2.0)
@@ -1064,8 +1064,8 @@ packages:
       semver: 7.4.0
     dev: false
 
-  /consola@2.15.3:
-    resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==}
+  /consola@3.1.0:
+    resolution: {integrity: sha512-rrrJE6rP0qzl/Srg+C9x/AE5Kxfux7reVm1Wh0wCjuXvih6DqZgqDZe8auTD28fzJ9TF0mHlSDrPpWlujQRo1Q==}
     dev: false
 
   /console-control-strings@1.1.0:
