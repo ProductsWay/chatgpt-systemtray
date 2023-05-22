@@ -15,7 +15,7 @@ dependencies:
     version: 13.3.0(react-dom@18.2.0)(react@18.2.0)
   next-swagger-doc:
     specifier: 0.3.6
-    version: 0.3.6(next@13.3.0)(openapi-types@12.1.0)
+    version: 0.3.6(next@13.3.0)(openapi-types@12.1.1)
   next-validations:
     specifier: 0.3.2
     version: 0.3.2(next@13.3.0)
@@ -81,7 +81,7 @@ packages:
     resolution: {integrity: sha512-QAkD5kK2b1WfjDS/UQn/qQkbwF31uqRjPTrsCs5ZG9BQGAkjwvqGFjjPqAuzac/IYzpPtRzjCP1WrTuAIjMrXg==}
     dev: false
 
-  /@apidevtools/swagger-parser@10.0.2(openapi-types@12.1.0):
+  /@apidevtools/swagger-parser@10.0.2(openapi-types@12.1.1):
     resolution: {integrity: sha512-JFxcEyp8RlNHgBCE98nwuTkZT6eNFPc1aosWV6wPcQph72TSEEu1k3baJD4/x1qznU+JiDdz8F5pTwabZh+Dhg==}
     peerDependencies:
       openapi-types: '>=7'
@@ -91,7 +91,7 @@ packages:
       '@apidevtools/swagger-methods': 3.0.2
       '@jsdevtools/ono': 7.1.3
       call-me-maybe: 1.0.2
-      openapi-types: 12.1.0
+      openapi-types: 12.1.1
       z-schema: 4.2.4
     dev: false
 
@@ -550,7 +550,7 @@ packages:
   /@swc/helpers@0.4.14:
     resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: false
 
   /@tauri-apps/api@2.0.0-alpha.3:
@@ -819,7 +819,7 @@ packages:
   /autolinker@3.16.2:
     resolution: {integrity: sha512-JiYl7j2Z19F9NdTmirENSUUIIL/9MytEWtmzhfmsKPCp9E+G35Y0UNCMoM9tFigxT59qSc8Ml2dlZXOCVTYwuA==}
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: false
 
   /axios@1.3.6:
@@ -907,8 +907,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite@1.0.30001487:
-    resolution: {integrity: sha512-83564Z3yWGqXsh2vaH/mhXfEM0wX+NlBCm1jYHOb97TrTWJEmPTccZgeLTPBUUb0PNVo+oomb7wkimZBIERClA==}
+  /caniuse-lite@1.0.30001488:
+    resolution: {integrity: sha512-NORIQuuL4xGpIy6iCCQGN4iFjlBXtfKWIenlUuyZJumLRIindLb7wXM+GO8erEhb7vXfcnf4BAg2PrSDN5TNLQ==}
     dev: false
 
   /chalk@2.4.2:
@@ -1652,8 +1652,8 @@ packages:
       ci-info: 2.0.0
     dev: false
 
-  /is-core-module@2.12.0:
-    resolution: {integrity: sha512-RECHCBCd/viahWmwj6enj19sKbHfJrddi/6cBDsNTKbNq0f7VeaUkBo60BqzvPqo/W54ChS62Z5qyun7cfOMqQ==}
+  /is-core-module@2.12.1:
+    resolution: {integrity: sha512-Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==}
     dependencies:
       has: 1.0.3
     dev: false
@@ -1921,7 +1921,7 @@ packages:
     dev: false
     optional: true
 
-  /next-swagger-doc@0.3.6(next@13.3.0)(openapi-types@12.1.0):
+  /next-swagger-doc@0.3.6(next@13.3.0)(openapi-types@12.1.1):
     resolution: {integrity: sha512-cfnWixZqBcOjitahkheK3+NVlpe+kSYh01SQlEuWJmRrj+2zeQrp9xOm4i50Ty0TGDZ95OLE2u8knyGpavX/BQ==}
     engines: {node: '>=12'}
     hasBin: true
@@ -1931,7 +1931,7 @@ packages:
       cleye: 1.2.1
       isarray: 2.0.5
       next: 13.3.0(react-dom@18.2.0)(react@18.2.0)
-      swagger-jsdoc: 6.2.5(openapi-types@12.1.0)
+      swagger-jsdoc: 6.2.5(openapi-types@12.1.1)
     transitivePeerDependencies:
       - openapi-types
     dev: false
@@ -1970,7 +1970,7 @@ packages:
       '@next/env': 13.3.0
       '@swc/helpers': 0.4.14
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001487
+      caniuse-lite: 1.0.30001488
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2039,7 +2039,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       hosted-git-info: 4.1.0
-      is-core-module: 2.12.0
+      is-core-module: 2.12.1
       semver: 7.5.1
       validate-npm-package-license: 3.0.4
     dev: false
@@ -2105,8 +2105,8 @@ packages:
       is-wsl: 2.2.0
     dev: false
 
-  /openapi-types@12.1.0:
-    resolution: {integrity: sha512-XpeCy01X6L5EpP+6Hc3jWN7rMZJ+/k1lwki/kTmWzbVhdPie3jd5O2ZtedEx8Yp58icJ0osVldLMrTB/zslQXA==}
+  /openapi-types@12.1.1:
+    resolution: {integrity: sha512-m/DJaEqOUDSU8KoI74E6A3TokccuDOJ81ewZ6kLFwUT1KEIE0GDWvErtnJJDU4sySx8JKF5kk2GzHUuK6f+VHA==}
     dev: false
 
   /os-tmpdir@1.0.2:
@@ -2374,8 +2374,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /qs@6.11.1:
-    resolution: {integrity: sha512-0wsrzgTz/kAVIeuxSjnpGC56rzYtr6JT/2BwEvMaPhFIoYa1aGO8LbzuU1R0uUYQkLpWBTOj0l/CLAJB64J6nQ==}
+  /qs@6.11.2:
+    resolution: {integrity: sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA==}
     engines: {node: '>=0.6'}
     dependencies:
       side-channel: 1.0.4
@@ -2946,7 +2946,7 @@ packages:
       is-plain-object: 5.0.0
       js-yaml: 4.1.0
       lodash: 4.17.21
-      qs: 6.11.1
+      qs: 6.11.2
       traverse: 0.6.7
       url: 0.11.0
     transitivePeerDependencies:
@@ -2954,7 +2954,7 @@ packages:
       - encoding
     dev: false
 
-  /swagger-jsdoc@6.2.5(openapi-types@12.1.0):
+  /swagger-jsdoc@6.2.5(openapi-types@12.1.1):
     resolution: {integrity: sha512-l+cdsKS2y+QDhrH1TJSUiE0y9XKuf5xaGSatjf0hR/wjTlMpO8WfubBK9d/nASdbHPMtj9iJZLBH2ogBEhL7Sw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
@@ -2963,17 +2963,17 @@ packages:
       doctrine: 3.0.0
       glob: 7.1.6
       lodash.mergewith: 4.6.2
-      swagger-parser: 10.0.2(openapi-types@12.1.0)
+      swagger-parser: 10.0.2(openapi-types@12.1.1)
       yaml: 2.0.0-1
     transitivePeerDependencies:
       - openapi-types
     dev: false
 
-  /swagger-parser@10.0.2(openapi-types@12.1.0):
+  /swagger-parser@10.0.2(openapi-types@12.1.1):
     resolution: {integrity: sha512-9jHkHM+QXyLGFLk1DkXBwV+4HyNm0Za3b8/zk/+mjr8jgOSiqm3FOTHBSDsBjtn9scdL+8eWcHdupp2NLM8tDw==}
     engines: {node: '>=10'}
     dependencies:
-      '@apidevtools/swagger-parser': 10.0.2(openapi-types@12.1.0)
+      '@apidevtools/swagger-parser': 10.0.2(openapi-types@12.1.1)
     transitivePeerDependencies:
       - openapi-types
     dev: false
@@ -3111,8 +3111,8 @@ packages:
     resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
     dev: false
 
-  /tslib@2.5.0:
-    resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
+  /tslib@2.5.2:
+    resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
     dev: false
 
   /tunnel-agent@0.6.0:
