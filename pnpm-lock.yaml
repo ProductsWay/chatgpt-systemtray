@@ -125,7 +125,7 @@ packages:
     resolution: {integrity: sha512-IcixfV2Jl3UrqZX4c81+7lVg5++2ufYJyAFW3Aux/ZTvY6LVYYhJ9rMgnbX0zGVq6eqfVpnoatTjZdVki/GmWA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      core-js-pure: 3.32.0
+      core-js-pure: 3.32.1
       regenerator-runtime: 0.14.0
     dev: false
 
@@ -262,7 +262,7 @@ packages:
       '@babel/runtime-corejs3': 7.22.10
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
       unraw: 3.0.0
     dev: false
@@ -275,7 +275,7 @@ packages:
       '@types/ramda': 0.29.3
       minim: 0.23.8
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       short-unique-id: 4.4.4
       stampit: 4.3.2
     dev: false
@@ -287,7 +287,7 @@ packages:
       '@swagger-api/apidom-core': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
     dev: false
 
   /@swagger-api/apidom-ns-api-design-systems@0.74.1:
@@ -299,7 +299,7 @@ packages:
       '@swagger-api/apidom-ns-openapi-3-1': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
     dev: false
     optional: true
@@ -313,7 +313,7 @@ packages:
       '@swagger-api/apidom-ns-json-schema-draft-7': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
     dev: false
     optional: true
@@ -326,7 +326,7 @@ packages:
       '@swagger-api/apidom-core': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
     dev: false
 
@@ -339,7 +339,7 @@ packages:
       '@swagger-api/apidom-ns-json-schema-draft-4': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
     dev: false
     optional: true
@@ -353,7 +353,7 @@ packages:
       '@swagger-api/apidom-ns-json-schema-draft-6': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
     dev: false
     optional: true
@@ -366,7 +366,7 @@ packages:
       '@swagger-api/apidom-ns-json-schema-draft-4': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
     dev: false
 
@@ -379,7 +379,7 @@ packages:
       '@swagger-api/apidom-ns-openapi-3-0': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
     dev: false
 
@@ -393,7 +393,7 @@ packages:
       '@swagger-api/apidom-parser-adapter-json': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
     dev: false
     optional: true
 
@@ -407,7 +407,7 @@ packages:
       '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
     dev: false
     optional: true
 
@@ -421,7 +421,7 @@ packages:
       '@swagger-api/apidom-parser-adapter-json': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
     dev: false
     optional: true
 
@@ -435,7 +435,7 @@ packages:
       '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
     dev: false
     optional: true
 
@@ -448,7 +448,7 @@ packages:
       '@swagger-api/apidom-core': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
       tree-sitter: 0.20.4
       tree-sitter-json: 0.20.0
@@ -466,7 +466,7 @@ packages:
       '@swagger-api/apidom-parser-adapter-json': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
     dev: false
     optional: true
 
@@ -480,7 +480,7 @@ packages:
       '@swagger-api/apidom-parser-adapter-json': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
     dev: false
     optional: true
 
@@ -494,7 +494,7 @@ packages:
       '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
     dev: false
     optional: true
 
@@ -508,7 +508,7 @@ packages:
       '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
     dev: false
     optional: true
 
@@ -521,7 +521,7 @@ packages:
       '@swagger-api/apidom-core': 0.74.1
       '@types/ramda': 0.29.3
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
       tree-sitter: 0.20.4
       tree-sitter-yaml: 0.5.0
@@ -539,7 +539,7 @@ packages:
       minimatch: 7.4.6
       process: 0.11.10
       ramda: 0.29.0
-      ramda-adjunct: 4.0.0(ramda@0.29.0)
+      ramda-adjunct: 4.1.0(ramda@0.29.0)
       stampit: 4.3.2
     optionalDependencies:
       '@swagger-api/apidom-json-pointer': 0.74.1
@@ -563,7 +563,7 @@ packages:
   /@swc/helpers@0.4.14:
     resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
     dependencies:
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /@tauri-apps/api@2.0.0-alpha.3:
@@ -813,7 +813,7 @@ packages:
   /autolinker@3.16.2:
     resolution: {integrity: sha512-JiYl7j2Z19F9NdTmirENSUUIIL/9MytEWtmzhfmsKPCp9E+G35Y0UNCMoM9tFigxT59qSc8Ml2dlZXOCVTYwuA==}
     dependencies:
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /axios@1.4.0:
@@ -901,8 +901,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite@1.0.30001520:
-    resolution: {integrity: sha512-tahF5O9EiiTzwTUqAeFjIZbn4Dnqxzz7ktrgGlMYNLH43Ul26IgTMH/zvL3DG0lZxBYnlT04axvInszUsZULdA==}
+  /caniuse-lite@1.0.30001522:
+    resolution: {integrity: sha512-TKiyTVZxJGhsTszLuzb+6vUZSjVOAhClszBr2Ta2k9IwtNBT/4dzmL6aywt0HCgEZlmwJzXJd8yNiob6HgwTRg==}
     dev: false
 
   /chalk@2.4.2:
@@ -1067,8 +1067,8 @@ packages:
       toggle-selection: 1.0.6
     dev: false
 
-  /core-js-pure@3.32.0:
-    resolution: {integrity: sha512-qsev1H+dTNYpDUEURRuOXMvpdtAnNEvQWS/FMJ2Vb5AY8ZP4rAPQldkE27joykZPJTe0+IVgHZYh1P5Xu1/i1g==}
+  /core-js-pure@3.32.1:
+    resolution: {integrity: sha512-f52QZwkFVDPf7UEQZGHKx6NYxsxmVGJe5DIvbzOdRMJlmT6yv0KDjR8rmy3ngr/t5wU54c7Sp/qIJH0ppbhVpQ==}
     requiresBuild: true
     dev: false
 
@@ -1093,7 +1093,7 @@ packages:
   /cross-fetch@3.1.8:
     resolution: {integrity: sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==}
     dependencies:
-      node-fetch: 2.6.12
+      node-fetch: 2.6.13
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -1918,7 +1918,7 @@ packages:
       '@next/env': 13.3.0
       '@swc/helpers': 0.4.14
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001520
+      caniuse-lite: 1.0.30001522
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1942,8 +1942,8 @@ packages:
     resolution: {integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==}
     dev: false
 
-  /node-abi@3.45.0:
-    resolution: {integrity: sha512-iwXuFrMAcFVi/ZoZiqq8BzAdsLw9kxDfTC0HMyjXfSL/6CSDAGD5UmR7azrAgWV1zKYq7dUUMj4owusBWKLsiQ==}
+  /node-abi@3.47.0:
+    resolution: {integrity: sha512-2s6B2CWZM//kPgwnuI0KrYwNjfdByE25zvAaEpq9IH4zcNsarH8Ihu/UuX6XMPEogDAxkuUFeZn60pXNHAqn3A==}
     engines: {node: '>=10'}
     requiresBuild: true
     dependencies:
@@ -1960,8 +1960,8 @@ packages:
     resolution: {integrity: sha512-5IAMBTl9p6PaAjYCnMv5FmqIF6GcZnawAVnzaCG0rX2aYZJ4CxEkZNtVPuTRug7fL7wyM5BQYTlAzcyMPi6oTQ==}
     dev: false
 
-  /node-fetch@2.6.12:
-    resolution: {integrity: sha512-C/fGU2E8ToujUivIO0H+tpQ6HWo4eEmchoPIoXtxCrVghxdKq+QOHqEZW7tuP3KlV3bC8FRMO5nMCC7Zm1VP6g==}
+  /node-fetch@2.6.13:
+    resolution: {integrity: sha512-StxNAxh15zr77QvvkmveSQ8uCQ4+v5FkvNTj0OESmiHu+VRi/gXArXtkWMElOsOUNLtUEvI4yS+rdtOHZTwlQA==}
     engines: {node: 4.x || >=6.0.0}
     peerDependencies:
       encoding: ^0.1.0
@@ -2194,7 +2194,7 @@ packages:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.45.0
+      node-abi: 3.47.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -2319,8 +2319,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /ramda-adjunct@4.0.0(ramda@0.29.0):
-    resolution: {integrity: sha512-W/NiJAlZdwZ/iUkWEQQgRdH5Szqqet1WoVH9cdqDVjFbVaZHuJfJRvsxqHhvq6tZse+yVbFatLDLdVa30wBlGQ==}
+  /ramda-adjunct@4.1.0(ramda@0.29.0):
+    resolution: {integrity: sha512-b43+fO08lDfYl/a9WumIxInNAFSBGLz+BezH7Q5q9MpDXOdqzz5qC2jSON7Yz6bkxj0xdjTlXCRce1Srbp4CjA==}
     engines: {node: '>=0.10.3'}
     peerDependencies:
       ramda: '>= 0.29.0'
@@ -2991,8 +2991,8 @@ packages:
     resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
     dev: false
 
-  /tslib@2.6.1:
-    resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
   /tunnel-agent@0.6.0:
