@@ -1014,8 +1014,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite@1.0.30001629:
-    resolution: {integrity: sha512-c3dl911slnQhmxUIT4HhYzT7wnBK/XYpGnYLOj4nJBaRiw52Ibe7YxlDaAeRECvA786zCuExhxIUJ2K7nHMrBw==}
+  /caniuse-lite@1.0.30001636:
+    resolution: {integrity: sha512-bMg2vmr8XBsbL6Lr0UHXy/21m84FTxDLWn2FSqMd5PrlbMxwJlQnC2YWYxVgp66PZE+BBNF2jYQUBKCo1FDeZg==}
     dev: false
 
   /chalk@2.4.2:
@@ -1989,8 +1989,8 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: false
 
-  /nan@2.19.0:
-    resolution: {integrity: sha512-nO1xXxfh/RWNxfd/XPfbIfFk5vgLsAxUR9y5O0cHMJu/AW9U95JLXqthYHjEp+8gQ5p96K9jUp8nbVOxCdRbtw==}
+  /nan@2.20.0:
+    resolution: {integrity: sha512-bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw==}
     requiresBuild: true
     dev: false
     optional: true
@@ -2056,7 +2056,7 @@ packages:
       '@next/env': 13.3.0
       '@swc/helpers': 0.4.14
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001629
+      caniuse-lite: 1.0.30001636
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2080,8 +2080,8 @@ packages:
     resolution: {integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==}
     dev: false
 
-  /node-abi@3.63.0:
-    resolution: {integrity: sha512-vAszCsOUrUxjGAmdnM/pq7gUgie0IRteCQMX6d4A534fQCR93EJU5qgzBvU6EkFfK27s0T3HEV3BOyJIr7OMYw==}
+  /node-abi@3.65.0:
+    resolution: {integrity: sha512-ThjYBfoDNr08AWx6hGaRbfPwxKV9kVzAzOzlLKbk2CuqXE2xnCh+cbAGnwM3t8Lq4v9rUB7VfondlkBckcJrVA==}
     engines: {node: '>=10'}
     requiresBuild: true
     dependencies:
@@ -2177,15 +2177,15 @@ packages:
       is-wsl: 2.2.0
     dev: false
 
-  /openapi-path-templating@1.5.3:
-    resolution: {integrity: sha512-NPL+3w4NsBmqTzCQGQbSUHTAUYM/ubm3tH9BWe77uvGyA8L32L73w+w7zhBCsql0zp+gqGvglaHdQTpWx/tzmA==}
+  /openapi-path-templating@1.6.0:
+    resolution: {integrity: sha512-1atBNwOUrZXthTvlvvX8k8ovFEF3iA8mDidYMkdOtvVdndBhTrspbwGXNOzEUaJhm9iUl4Tf5uQaeTLAJvwPig==}
     engines: {node: '>=12.20.0'}
     dependencies:
       apg-lite: 1.0.3
     dev: false
 
-  /openapi-server-url-templating@1.0.0:
-    resolution: {integrity: sha512-hJ3sCVx7XyYATfRqBfUY+dE+DSM/tsqZ83xtcyHhNqtDiN2Il/uedCzBaE9re3gLRkC4I0GrCI84aaQHboNMCw==}
+  /openapi-server-url-templating@1.1.0:
+    resolution: {integrity: sha512-dtyTFKx2xVcO0W8JKaluXIHC9l/MLjHeflBaWjiWNMCHp/TBs9dEjQDbj/VFlHR4omFOKjjmqm1pW1aCAhmPBg==}
     engines: {node: '>=12.20.0'}
     dependencies:
       apg-lite: 1.0.3
@@ -2346,7 +2346,7 @@ packages:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.63.0
+      node-abi: 3.65.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -2435,7 +2435,7 @@ packages:
 
   /puppeteer@19.10.1(typescript@5.0.4):
     resolution: {integrity: sha512-HqpY8sWqz28JfyZE8cGG9kBPgASD7iRHn/ryWLvVLXE10poR5AyU/mMsLmL175qoYl/chwMTN2pxKSz7HobaCg==}
-    deprecated: < 22.5.0 is no longer supported
+    deprecated: < 22.6.4 is no longer supported
     requiresBuild: true
     dependencies:
       '@puppeteer/browsers': 0.5.0(typescript@5.0.4)
@@ -2982,8 +2982,8 @@ packages:
       js-yaml: 4.1.0
       node-abort-controller: 3.1.1
       node-fetch-commonjs: 3.3.2
-      openapi-path-templating: 1.5.3
-      openapi-server-url-templating: 1.0.0
+      openapi-path-templating: 1.6.0
+      openapi-server-url-templating: 1.1.0
       qs: 6.12.1
       ramda-adjunct: 5.0.1(ramda@0.30.1)
       traverse: 0.6.8
@@ -3125,7 +3125,7 @@ packages:
     resolution: {integrity: sha512-eUxrowp4F1QEGk/i7Sa+Xl8Crlfp7J0AXxX1QdJEQKQYMWhgMbCIgyQvpO3Q0P9oyTrNQxRLlRipDS44a8EtRw==}
     requiresBuild: true
     dependencies:
-      nan: 2.19.0
+      nan: 2.20.0
     dev: false
     optional: true
 
@@ -3133,7 +3133,7 @@ packages:
     resolution: {integrity: sha512-POJ4ZNXXSWIG/W4Rjuyg36MkUD4d769YRUGKRqN+sVaj/VCo6Dh6Pkssn1Rtewd5kybx+jT1BWMyWN0CijXnMA==}
     requiresBuild: true
     dependencies:
-      nan: 2.19.0
+      nan: 2.20.0
     dev: false
     optional: true
 
@@ -3141,7 +3141,7 @@ packages:
     resolution: {integrity: sha512-rjfR5dc4knG3jnJNN/giJ9WOoN1zL/kZyrS0ILh+eqq8RNcIbiXA63JsMEgluug0aNvfQvK4BfCErN1vIzvKog==}
     requiresBuild: true
     dependencies:
-      nan: 2.19.0
+      nan: 2.20.0
       prebuild-install: 7.1.2
     dev: false
     optional: true
