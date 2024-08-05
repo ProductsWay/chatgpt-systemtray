@@ -126,7 +126,7 @@ packages:
     resolution: {integrity: sha512-BOehWE7MgQ8W8Qn0CQnMtg2tHPHPulcS/5AVpFvs2KCK1ET+0WqZqPvnpRpFN81gYoFopdIEJX9Sgjw3ZBccPg==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      core-js-pure: 3.37.1
+      core-js-pure: 3.38.0
       regenerator-runtime: 0.14.1
     dev: false
 
@@ -634,7 +634,7 @@ packages:
       '@babel/runtime-corejs3': 7.25.0
       '@swagger-api/apidom-core': 1.0.0-alpha.6
       '@types/ramda': 0.30.1
-      axios: 1.7.2
+      axios: 1.7.3
       minimatch: 7.4.6
       process: 0.11.10
       ramda: 0.30.1
@@ -925,8 +925,8 @@ packages:
       tslib: 2.6.3
     dev: false
 
-  /axios@1.7.2:
-    resolution: {integrity: sha512-2A8QhOMrbomlDuiLeK9XibIBzuHeRcqqNOHp0Cyp5EoJ1IFDh+XZH3A6BkXtv0K4gFGCI0Y4BM7B1wOEi0Rmgw==}
+  /axios@1.7.3:
+    resolution: {integrity: sha512-Ar7ND9pU99eJ9GpoGQKhKf58GpUOgnzuaB7ueNQ5BMi0p+LZ5oaEnfF999fAArcTIBwXTCHAmGcHOZJaWPq9Nw==}
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
@@ -1014,8 +1014,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite@1.0.30001643:
-    resolution: {integrity: sha512-ERgWGNleEilSrHM6iUz/zJNSQTP8Mr21wDWpdgvRwcTXGAq6jMtOUPP4dqFPTdKqZ2wKTdtB+uucZ3MRpAUSmg==}
+  /caniuse-lite@1.0.30001647:
+    resolution: {integrity: sha512-n83xdNiyeNcHpzWY+1aFbqCK7LuLfBricc4+alSQL2Xb6OR3XpnQAmlDG+pQcdTfiHRuLcQ96VOfrPSGiNJYSg==}
     dev: false
 
   /chalk@2.4.2:
@@ -1180,8 +1180,8 @@ packages:
       toggle-selection: 1.0.6
     dev: false
 
-  /core-js-pure@3.37.1:
-    resolution: {integrity: sha512-J/r5JTHSmzTxbiYYrzXg9w1VpqrYt+gexenBE9pugeyhwPZTAEJddyiReJWsLO6uNQ8xJZFbod6XC7KKwatCiA==}
+  /core-js-pure@3.38.0:
+    resolution: {integrity: sha512-8balb/HAXo06aHP58mZMtXgD8vcnXz9tUDePgqBgJgKdmTlMt+jw3ujqniuBDQXMvTzxnMpxHFeuSM3g1jWQuQ==}
     requiresBuild: true
     dev: false
 
@@ -2061,7 +2061,7 @@ packages:
       '@next/env': 13.3.0
       '@swc/helpers': 0.4.14
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001643
+      caniuse-lite: 1.0.30001647
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2453,8 +2453,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /qs@6.12.3:
-    resolution: {integrity: sha512-AWJm14H1vVaO/iNZ4/hO+HyaTehuy9nRqVdkTqlJt0HWvBiBIEXFmb4C0DGeYo3Xes9rrEW+TxHsaigCbN5ICQ==}
+  /qs@6.13.0:
+    resolution: {integrity: sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==}
     engines: {node: '>=0.6'}
     dependencies:
       side-channel: 1.0.6
@@ -2985,7 +2985,7 @@ packages:
       node-fetch-commonjs: 3.3.2
       openapi-path-templating: 1.6.0
       openapi-server-url-templating: 1.1.0
-      qs: 6.12.3
+      qs: 6.13.0
       ramda-adjunct: 5.0.1(ramda@0.30.1)
       traverse: 0.6.8
     transitivePeerDependencies:
