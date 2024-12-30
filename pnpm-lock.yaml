@@ -2052,15 +2052,15 @@ packages:
       is-wsl: 2.2.0
     dev: false
 
-  /openapi-path-templating@1.7.0:
-    resolution: {integrity: sha512-PYYQdf4VRpzpXKMkV6qJK9eI6BO/dsE3i+8dYaaM7MFaL8jxK8xTXm+FS0M3GYobaFPYsMlPhZ0vTUJaKvXx/Q==}
+  /openapi-path-templating@2.0.2:
+    resolution: {integrity: sha512-IzwJMikSotOU5XJjPqgyvlYAa9INWf3wf0PpKGe+Vg7kdAnVIrlZ95ddQry8vwkKRQ36XBLmNaMGGdvsvRzZcA==}
     engines: {node: '>=12.20.0'}
     dependencies:
       apg-lite: 1.0.4
     dev: false
 
-  /openapi-server-url-templating@1.2.0:
-    resolution: {integrity: sha512-6FVJ1SDWO6JeW9Qk5jrPRyeipYTwHJWZgTPydq+aG1CcFwa6xBB26lhIM5ncpqcDf1Owk2REtPCKgfsk2NUGKg==}
+  /openapi-server-url-templating@1.3.0:
+    resolution: {integrity: sha512-DPlCms3KKEbjVQb0spV6Awfn6UWNheuG/+folQPzh/wUaKwuqvj8zt5gagD7qoyxtE03cIiKPgLFS3Q8Bz00uQ==}
     engines: {node: '>=12.20.0'}
     dependencies:
       apg-lite: 1.0.4
@@ -2746,8 +2746,8 @@ packages:
       has-flag: 4.0.0
     dev: false
 
-  /swagger-client@3.32.2:
-    resolution: {integrity: sha512-efuUECHpI64BAsh+UuVkZsabLu0JDpHFo2tGp2Gc2J9W+7cY2YgVXQobY992ZNQnYU+gFiqyWLnoqtpqnzeB1g==}
+  /swagger-client@3.32.4:
+    resolution: {integrity: sha512-TzirovU5wDptcEJ1M/EJi8MfhgC5F6dBsbEf6I7uZnNax/3wlz8T50qLEEJBT3DHjquLFGBZ18dGyKKg7A4wXA==}
     dependencies:
       '@babel/runtime-corejs3': 7.26.0
       '@scarf/scarf': 1.4.0
@@ -2763,8 +2763,8 @@ packages:
       neotraverse: 0.6.18
       node-abort-controller: 3.1.1
       node-fetch-commonjs: 3.3.2
-      openapi-path-templating: 1.7.0
-      openapi-server-url-templating: 1.2.0
+      openapi-path-templating: 2.0.2
+      openapi-server-url-templating: 1.3.0
       ramda: 0.30.1
       ramda-adjunct: 5.1.0(ramda@0.30.1)
     transitivePeerDependencies:
@@ -2832,7 +2832,7 @@ packages:
       reselect: 4.1.8
       serialize-error: 8.1.0
       sha.js: 2.4.11
-      swagger-client: 3.32.2
+      swagger-client: 3.32.4
       url-parse: 1.5.10
       xml: 1.0.1
       xml-but-prettier: 1.0.1
