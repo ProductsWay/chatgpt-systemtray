@@ -28,6 +28,6 @@
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
     "internal-ip": "7.0.0",
-    "typescript": "5.0.4"
+    "typescript": "7.0.2"
   }
 }
